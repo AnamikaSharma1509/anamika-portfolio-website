@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 /* Professional Portfolio Design System */
-
+.my-btn{
+    @apply px-4 py-2 bg-blue-500 text-white rounded;
+}
 @layer base {
   :root {
     /* Core Colors - Professional Blue/Purple Theme */

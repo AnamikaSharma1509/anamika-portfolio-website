@@ -10,11 +10,11 @@ const Skills = () => {
       icon: Code,
       skills: [
         { name: "Python", level: 90 },
-        { name: "C++", level: 85 },
-        { name: "JavaScript", level: 88 },
-        { name: "Java", level: 80 },
+        { name: "C++", level: 95 },
+        { name: "JavaScript", level: 68 },
+        { name: "Java", level: 50 },
         { name: "HTML/CSS", level: 95 },
-        { name: "Node.js", level: 85 }
+        { name: "Node.js", level: 65 }
       ],
       color: "primary"
     },
@@ -22,31 +22,22 @@ const Skills = () => {
       title: "Databases & Backend",
       icon: Database,
       skills: [
-        { name: "PostgreSQL", level: 80 },
+        { name: "PostgreSQL", level: 50 },
         { name: "SQL", level: 85 },
-        { name: "Express.js", level: 85 },
-        { name: "RESTful APIs", level: 88 }
+        { name: "Express.js", level: 65 },
+        { name: "RESTful APIs", level: 40 }
       ],
       color: "secondary"
     },
-    {
-      title: "Cloud & DevOps",
-      icon: Cloud,
-      skills: [
-        { name: "AWS", level: 85 },
-        { name: "Cloud Architecture", level: 80 },
-        { name: "Solutions Design", level: 82 }
-      ],
-      color: "accent"
-    },
+
     {
       title: "Emerging Technologies",
       icon: Cpu,
       skills: [
-        { name: "Blockchain", level: 85 },
-        { name: "Ethereum", level: 80 },
-        { name: "Solidity", level: 75 },
-        { name: "AI/ML", level: 85 },
+        { name: "Blockchain", level: 40 },
+        { name: "Ethereum", level: 40 },
+        { name: "Solidity", level: 35 },
+        { name: "AI/ML", level: 60 },
         { name: "Generative AI", level: 80 }
       ],
       color: "primary"
@@ -68,9 +59,9 @@ const Skills = () => {
       skills: [
         { name: "Leadership", level: 90 },
         { name: "Problem Solving", level: 95 },
-        { name: "Time Management", level: 88 },
-        { name: "Public Speaking", level: 85 },
-        { name: "Event Management", level: 82 }
+        { name: "Time Management", level: 90 },
+        { name: "Public Speaking", level: 95 },
+        { name: "Event Management", level: 92 }
       ],
       color: "accent"
     }

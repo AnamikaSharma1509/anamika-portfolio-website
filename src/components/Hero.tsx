@@ -70,15 +70,15 @@ const Hero = () => {
           {/* Action Buttons */}
           <motion.div 
             className="flex flex-wrap justify-center gap-4 mb-12"
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1 }}
           >
-            <Button size="lg" className="bg-white text-primary hover:bg-primary-light hover:text-white transition-spring shadow-large">
+            <Button size="lg" className="bg-black text-primary hover:bg-primary-light ">
               <Download className="w-5 h-5 mr-2" />
               Download Resume
             </Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary transition-spring">
+            <Button variant="outline" size="lg" className="bg-black text-primary hover:bg-primary-light ">
               View Projects
             </Button>
           </motion.div>
